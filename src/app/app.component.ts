@@ -11,7 +11,7 @@ export class AppComponent {
   private error: any;
   private fileSelected = true;
   constructor(private ymlService: YmlComparisonService) {}
-  title = 'YAML Convertor';
+  title = 'YAML Comparator';
   compare() {
     const fileInput1 = (<HTMLInputElement>document.getElementById('file1')).value;
     const fileInput2 = (<HTMLInputElement>document.getElementById('file2')).value;
