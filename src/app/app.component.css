@@ -1,0 +1,54 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.upload_file_container{
+  width:100px;
+  height:40px;
+  position:relative;
+}
+.upload_file_container input{
+  width:100px;
+  height:40px;
+  position:absolute;
+  left:0;
+  top:0;
+  cursor:pointer;
+}
+.top-buffer {
+  margin-top:20px;
+}
+.full-width {
+  width: 100%;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.txt-align-center {
+  text-align: center;
+}
+.margin-left {
+  margin-left: 5px;
+}
+.width-93 {
+  width: 93px;
+}
+

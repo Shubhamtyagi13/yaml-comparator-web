@@ -1,0 +1,24 @@
+{
+  "comparedFiles": [
+    "YML1",
+    "YML2"
+  ],
+  "details": [
+    {
+      "propName": "prop1",
+      "yml1": true,
+      "yml2": false,
+      "isDifferent": true
+    },{
+      "propName": "prop2",
+      "yml1": true,
+      "yml2": true,
+      "isDifferent": false
+    },
+    {
+      "propName": "prop3",
+      "yml1": "NA",
+      "yml2": true,
+      "isDifferent": true
+    }]
+}
